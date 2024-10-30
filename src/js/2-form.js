@@ -37,6 +37,7 @@ function formSubmit(event) {
     alert('Fill please all fields');
     return;
   }
+  console.log('Submitted info:', formData);
 
   event.currentTarget.reset();
   localStorage.removeItem(key);
